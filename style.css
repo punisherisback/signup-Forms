@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Ubuntu:wght@500&display=swap');
+
+
+
+
+
+body {
+    box-sizing: border-box;
+    background-color: rgba(246, 113, 122, 0.734);
+    font-family: 'Nunito', Ubuntu, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.container {
+    box-shadow: 0 0 30px 20px rgba(186, 90, 90, 0.29);
+    color: rgba(243, 82, 82, 0.851);
+    border-radius: 30px;
+    background-color: rgb(255, 206, 214);
+    margin: 5vw;
+    padding: 30px;
+}
+form div{
+    margin-bottom: 10px;
+}
+form div .input{
+    display: block;
+
+}
+
+form div .input2{
+    background: transparent;
+    border: none;
+    box-shadow: 0 2px 0 rgba(243, 82, 82, 0.851);;
+}
+
+form .submit{
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    
+}
+form .reset{
+    display: inline;
+    float: left;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(243, 82, 82, 0.851);
+}
+
+form button{
+    width: 70px;
+    height: 30px;
+    border: 2px ;
+    background-color: rgba(243, 82, 82, 0.851);
+    color: rgb(255, 206, 214);
+    border-radius: 25px;
+    box-shadow: 0 0 7px 5px rgba(243, 152, 152, 0.896);
+}
+
+button:hover{
+    background-color: rgb(237, 193, 193);
+    color: rgba(243, 82, 82, 0.851);
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 5px;
+        font-size: 1em;
+    }
+
+}
